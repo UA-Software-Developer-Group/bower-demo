@@ -52,8 +52,8 @@ Via NPM `npm install -g bower`
  - `bower search <search string>` (or from the [bower.io site][2])
 
 #### Problems:
- - Because it is unopinionated, everyone has an opinion on what they release and how to structure their release folder
- - The bower repository does not currently allow renaming or deleting packages, which becomes problematic if you name something incorrectly
+ - Because it is unopinionated, everyone has an opinion on what they release and how to structure their release folder, however, the `main` property in the bower.json file helps allievate some of these problems
+ - The bower repository does not currently allow renaming or deleting packages, which becomes problematic if you name something incorrectly.  This is suppose to be resolved in a future release.
 
   [1]: http://bower.io/
   [2]: http://bower.io/search
